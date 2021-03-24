@@ -31,8 +31,9 @@
       a:link, a:visited{
         background-color: #666;
         color: white;
-        padding: 14px 20px;
+        padding: 8px 20px;
         text-align: center;
+        font-size: 2vw;
       }
       a:hover, a:active{
         background-color: black;
@@ -46,10 +47,8 @@
       video{
         width: 50vw;
       }
-      li{
-        margin: 30px;
-        padding: 3px;
-        display: inline-block;
+      table{
+        width: 100vw;
       }
     </style>
   </head>
@@ -81,8 +80,8 @@
     </div>
     <section >
       <p class="listDesign">
-        <a href="https://m.youtube.com/channel/UCGX8qCSZW1EAIuZ8tHk0VRQ?sub_confirmation=1"
-          >Please subscribe our channel:
+        <a target="_blank" href="https://m.youtube.com/channel/UCGX8qCSZW1EAIuZ8tHk0VRQ?sub_confirmation=1"
+          >Please subscribe our channel
         </a>
       </p>
       <video class="video" autoplay muted loop>
@@ -94,13 +93,15 @@
 
   </main>
 
-    <div >
-      <ul>
-        <li><a  href="./index.html">Home</a></li>
-        <li><a href="./videoList.html">Our Video List</a></li>
-        <li><a href="./contact.html">Contact Us</a></li>
-        <li><a href="./about.html">About Us</a></li>
-      </ul>
+    <div>
+      <table>
+        <tr>
+          <th><a  href="./index.html">Home</a></th>
+          <th><a href="./videoList.html">Our Video List</a></th>
+          <th><a href="./contact.html">Contact Us</a></th>
+          <th><a href="./about.html">About Us</a></th>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
