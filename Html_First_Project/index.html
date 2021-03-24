@@ -4,51 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <title>Document</title>
     <style>
-      div{
+      body{
+        font-size: 25px;
+        text-align: justify;
+      }
+      div, section{
         background-color: #eee;
+        padding: 5px;
       }
       a:link{
         text-decoration: none;
-        color: black;
-      }
-      .listDesign{
-        background-color: #eee;
-        border-left: 5px solid black;
-        margin-bottom: 5px;
-        padding-left: 1px;
-        font-size: 3vw;
-      }
-      .listDesign:hover{
-        background-color: aqua;
-        border-left: 5px solid blue;
-        padding-left: 1vw;
         color: black;
       }
       img.midd1{
         vertical-align: middle;
       }
       #head{
-        background-color: #eee;
-        border-style: solid;
-        border-width: 0vw 1vw 2vw 1vw;
+        
         margin-bottom: 2vw;
-        border-color: black;
-        color: rgb(105, 13, 141);
+        color: rgb(141, 13, 13);
+        font-family: Georgia, 'Times New Roman', Times, serif;
       }
-      a:visited{
-        color: black;
+      a:link, a:visited{
+        background-color: #666;
+        color: white;
+        padding: 14px 20px;
+        text-align: center;
+      }
+      a:hover, a:active{
+        background-color: black;
+      }
+      .para{
+        width: 50%;
+      }
+      main.video{
+        display: flex;
+      }
+      video{
+        width: 50vw;
+      }
+      li{
+        margin: 30px;
+        padding: 3px;
+        display: inline-block;
       }
     </style>
   </head>
 
 
   <body>
-    <div id="head">
-      <b>
-        <p style="font-size: 5vw; font-style: italic">
-          Welcome to
+      <h1 style="font-size: 3.5vw;" class="font-effect-fire" id="head">
+        Welcome to
           <img
             class="midd1"
             width="4%"
@@ -62,51 +71,44 @@
             style="border-radius: 50%"
             src="./images/omnime_icon.jpg"
             alt="omnime icon"
-          /></p>
-        </b>
+          /></h1>
+        
+  <main class= "video">
+    <div class= "para">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nihil soluta necessitatibus id ut omnis vero, molestiae ex modi cumque recusandae consequatur, quos ipsa! Accusamus sapiente quos facilis possimus ratione minus temporibus consectetur iusto distinctio eligendi ipsum unde earum, animi exercitationem impedit pariatur placeat odio. Eveniet quia tempore odit illum aspernatur autem eligendi excepturi iusto rem, porro necessitatibus quas hic ipsam quo laudantium voluptate dolores fuga, suscipit natus eius vero! Repellat rem nisi itaque esse unde nam impedit, doloribus dignissimos earum eos nihil culpa qui excepturi delectus vel, et pariatur, quaerat vero. Nesciunt veritatis sunt eos accusamus impedit, est laborum.
+     </p>
     </div>
-
-    <div style="font-size: 3vw">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius quidem
-      error rerum, iusto soluta quae. Voluptatum atque repudiandae assumenda
-      facere consequuntur quidem nesciunt deserunt! Qui magnam perspiciatis
-      sapiente mollitia. Blanditiis, est amet, illo architecto perferendis,
-      aliquam voluptate assumenda maxime alias autem officiis corporis fugit
-      reprehenderit voluptatibus voluptates eos delectus.
-    </div>
-
-    <br /><br />
-
-    <div>
-      <img
-        src="./images/HomePage.jpg"
-        style="width: 100vw"
-        alt="|| OMNime || Home Page"
-      />
-    </div>
-    
-    <div>
+    <section >
       <p class="listDesign">
         <a href="https://m.youtube.com/channel/UCGX8qCSZW1EAIuZ8tHk0VRQ?sub_confirmation=1"
           >Please subscribe our channel:
         </a>
       </p>
-    </div>
-    <div style="font-size: 3vw">
-      <video style="width: 100vw" autoplay muted loop>
+      <video class="video" autoplay muted loop>
         <source src="./videos/subscribe.mp4" type="video/mp4" />
         Sorry your browser doesn't support this video
       </video>
-      <p>Thanks for subscribing&#128522;.</p>
-    </div>
+      <!-- <p>Thanks for subscribing&#128522;.</p> -->
+    </section>
 
-    <div>
+  </main>
+
+    <div >
       <ul>
-        <li class="listDesign"><a  href="./index.html">Home</a></li>
-        <li class="listDesign"><a href="./videoList.html">Our Video List</a></li>
-        <li class="listDesign"><a href="./contact.html">Contact Us</a></li>
-        <li class="listDesign"><a href="./about.html">About Us</a></li>
+        <li><a  href="./index.html">Home</a></li>
+        <li><a href="./videoList.html">Our Video List</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+        <li><a href="./about.html">About Us</a></li>
       </ul>
     </div>
   </body>
 </html>
+
+<!-- <div >
+      <p class="listDesign">
+        <a href="https://m.youtube.com/channel/UCGX8qCSZW1EAIuZ8tHk0VRQ?sub_confirmation=1"
+          >Please subscribe our channel:
+        </a>
+      </p>
+    </div> -->
