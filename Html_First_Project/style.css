@@ -1,0 +1,116 @@
+body{
+        font-size: 22px;
+        text-align: left;
+        margin: 0px;
+        padding: 0px;
+      }
+      div, section{
+        background-color: #eee;
+        padding: 5px;
+      }
+      a:link{
+        text-decoration: none;
+        color: black;
+      }
+      img.midd1{
+        vertical-align: middle;
+      }
+      #head{
+        
+        margin-bottom: 2vw;
+        color: rgb(141, 13, 13);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      section p a:link, section p a:visited{
+        background-color: #666;
+        color: white;
+        padding: 8px 20px;
+        text-align: center;
+        font-size: 2vw;
+      }
+      section p a:hover, section p a:active{
+        background-color: black;
+      }
+      .para {
+        width: 50%;
+        border-style: solid;
+        border-width: 0px 6.5px 0px 6.5px; 
+        border-radius: 5%;
+      }
+
+      video {
+        border: solid;
+        border-radius: 12%
+      }
+
+      main.video{
+        display: flex;
+      }
+
+      .vSection {
+        text-align: center;
+        border-width: 0px 6.5px 0px 6.5px; 
+        border-radius: 5%;
+      }
+      @media screen and (max-width: 1250px) {
+
+        .para{
+          width: 100%;
+          border-style: solid;
+          border-width: 2px 0px 2px 0px; 
+          border-radius: 4%;
+        }
+
+        .vSection {
+          width: 100%;
+          border-style: solid;
+          border-width: 2px 0px 2px 0px; 
+          border-radius: 4%;
+          text-align: center;
+        }
+        main.video{
+          display: block;
+        }
+      }
+      video{
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        font-weight: 900;
+      }
+
+      ul {
+        margin: 0;
+        width: 100%;
+        padding: 1px 0px;
+        background: #555;
+        overflow: hidden;
+        font-size: 2.6vw;
+        position: sticky;
+        top: 0px
+      }
+
+      ul li a {
+        text-decoration: none;
+        padding: 11px 20px 11px 20px;
+        color: white;
+        display: block;
+      }
+
+      ul li {
+        list-style-type: none;
+        float: left;
+        
+      }
+
+      ul li a:hover {
+        background-color: black;
+        color: white;
+      }
+
+      ul li a:active {
+        background-color: black;
+        color: white;
+      }
