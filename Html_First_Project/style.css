@@ -27,9 +27,13 @@ body{
         padding: 8px 20px;
         text-align: center;
         font-size: 2vw;
+        border-radius: 20px;
+        transition: 0.5s;
       }
       section p a:hover, section p a:active{
         background-color: black;
+        
+        border-radius: 0px;
       }
       .para {
         width: 50%;
@@ -74,6 +78,7 @@ body{
       }
       video{
         width: 95%;
+        transition: 0.5s;
       }
 
       h1 {
@@ -97,6 +102,7 @@ body{
         padding: 11px 20px 11px 20px;
         color: white;
         display: block;
+        transition: 0.5s;
       }
 
       ul li {
@@ -112,5 +118,14 @@ body{
 
       ul li a:active {
         background-color: black;
+        color: white;
+      }
+
+      video:hover{
+        border-radius: 0px;
+      }
+
+      ::selection{
+        background: black;
         color: white;
       }
